@@ -21,7 +21,7 @@ import io.github.cursospring.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("*")
+@CrossOrigin("https://rebecacfarias.github.io/todo-angular-frontend/")
 public class TodoController {
 	
 	@Autowired
